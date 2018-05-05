@@ -51,7 +51,7 @@ UPDATE_ZSH_DAYS=7
  ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -114,7 +114,18 @@ alias lnava="lnav /var/log/auth.log"
 ## ls group directory first
 alias lsf="ls --group-directories-first"
 
+## ls kurwa wincy
+alias lm="ls -al | more"	
+
 ## kurwa odśwież jebany config
 alias sourcezsh="source ~/.zshrc"
 
+## ls kurwa long listing
+alias ll="ls -alh"
+## ls kurwa wszystko bez kropków
+alias la="ls -a"
+## ls kurwa typy i jakies kurwa kolumny	
+alias l="ls -Cg"
 
+## porty przy uzyciu netstat
+alias ports="netstat -tulanp"

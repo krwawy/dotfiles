@@ -21,7 +21,7 @@
 # set quiet
 
 ## Use auto-indentation.
-# set autoindent
+ set autoindent
 
 ## Back up files to the current filename plus a tilde.
 # set backup
@@ -162,7 +162,7 @@ set suspend
 # set tabsize 8
 
 ## Convert typed tabs to spaces.
-# set tabstospaces
+ set tabstospaces
 
 ## Save automatically on exit; don't prompt.
 # set tempfile

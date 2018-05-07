@@ -70,7 +70,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python colored-man-pages sudo z sublime)
+plugins=(git python colored-man-pages sudo z sublime zsh-syntax-highlighting-filetypes)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -129,3 +129,6 @@ alias l="ls -Cg"
 
 ## porty przy uzyciu netstat
 alias ports="netstat -tulanp"
+
+## uprawnienia pliku w postaci ósemkowej
+#alias ="stat -c "%a %n""

@@ -28,6 +28,7 @@
 ZSH_THEME="sorin"
 
 # TERM="xterm"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -64,13 +65,13 @@ COMPLETION_WAITING_DOTS="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-#export ZSH_CUSTOM=/home/krzysztof/.oh-my-zsh/custom
+#export ZSH_CUSTOM=/home/
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python colored-man-pages sudo z sublime zsh-syntax-highlighting-filetypes)
+plugins=(git python colored-man-pages sudo z sublime )
 
 source $ZSH/oh-my-zsh.sh
 

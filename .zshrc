@@ -25,9 +25,9 @@
 #ZSH_THEME="norm"
 #ZSH_THEME="pure"
 #ZSH_THEME="Soliah"
-ZSH_THEME="sorin"
-
-# TERM="xterm"
+#ZSH_THEME="sorin"
+ZSH_THEME="oxide"
+export TERM="xterm-256color"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -43,7 +43,7 @@ ZSH_THEME="sorin"
 UPDATE_ZSH_DAYS=7
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+ DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -94,6 +94,8 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+eval `dircolors ~/.dircolors`
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh

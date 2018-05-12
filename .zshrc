@@ -7,7 +7,6 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
-#ZSH_THEME="af-magic"
 #ZSH_THEME="agnoster"
 #ZSH_THEME="alanpeabody"
 #ZSH_THEME="blinks"
@@ -27,6 +26,7 @@
 #ZSH_THEME="Soliah"
 #ZSH_THEME="sorin"
 ZSH_THEME="oxide"
+
 export TERM="xterm-256color"
 
 # Uncomment the following line to use case-sensitive completion.

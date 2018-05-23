@@ -96,7 +96,7 @@ item2_pos=-1,0,0,296,196
 item3_name=Analizator spektrum
 item3_pos=-1,0,0,320,134
 item4_name=Narzędzie wyszukiwania
-item4_pos=-1,37,27,296,862
+item4_pos=-1,37,27,292,858
 item_count=5
 
 [mixer]

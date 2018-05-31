@@ -11,7 +11,6 @@ output_bit_depth=32
 output_buffer_size=3100
 replay_gain_preamp=-1
 show_numbers_in_pl=TRUE
-shuffle=TRUE
 soft_clipping=TRUE
 
 [audgui]
@@ -19,7 +18,7 @@ about_win=665,302,591,446
 clear_song_fields=FALSE
 equalizer_win=199,578,299,290
 filebrowser_win=972,275,700,450
-filesel_path=/home/krzysztof/Muzyka
+filesel_path=/mnt/hdd/muzyka
 info_win=809,255,683,485
 jump_to_time_win=851,440,215,140
 jump_to_track_win=55,0,653,500
@@ -96,7 +95,7 @@ item2_pos=-1,0,0,296,196
 item3_name=Analizator spektrum
 item3_pos=-1,0,0,320,134
 item4_name=Narzędzie wyszukiwania
-item4_pos=-1,37,27,292,858
+item4_pos=-1,37,27,280,846
 item_count=5
 
 [mixer]

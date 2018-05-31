@@ -74,6 +74,7 @@ UPDATE_ZSH_DAYS=7
 plugins=(git python colored-man-pages sudo z sublime )
 
 source $ZSH/oh-my-zsh.sh
+source ~/.editor
 
 # User configuration
 
@@ -84,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+#   export EDITOR='nano'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -134,4 +135,4 @@ alias l="ls -Cg"
 alias ports="netstat -tulanp"
 
 ## uprawnienia pliku w postaci ósemkowej
-#alias ="stat -c "%a %n""
+alias sto="stat -c '%a %n'"

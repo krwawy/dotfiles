@@ -79,7 +79,7 @@ column_widths=10,564,224,64,411,175,40,100,39,60,275,275,275,80
 entry_count_visible=TRUE
 infoarea_show_vis=FALSE
 infoarea_visible=FALSE
-player_height=992
+player_height=998
 player_width=1883
 player_x=37
 player_y=0
@@ -87,15 +87,15 @@ playlist_columns=track queued artist album title year bitrate length
 
 [gtkui-layout]
 item0_name=Okładka albumu
-item0_pos=0,0,0,281,340
-item1_name=Menedżer list odtwarzania
-item1_pos=0,0,0,281,551
-item2_name=Rozmyty zakres
-item2_pos=-1,0,0,296,196
+item0_pos=0,0,0,281,306
+item1_name=Rozmyty zakres
+item1_pos=-1,0,0,296,196
+item2_name=Narzędzie wyszukiwania
+item2_pos=-1,37,27,280,846
 item3_name=Analizator spektrum
-item3_pos=-1,0,0,320,134
-item4_name=Narzędzie wyszukiwania
-item4_pos=-1,37,27,280,846
+item3_pos=0,229,517,281,103
+item4_name=Menedżer list odtwarzania
+item4_pos=0,0,0,281,591
 item_count=5
 
 [mixer]

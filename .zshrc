@@ -30,15 +30,15 @@ ZSH_THEME="oxide"
 export TERM="xterm-256color"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+ CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
+# DISABLE_AUTO_UPDATE="false"
+  
 # Uncomment the following line to change how often to auto-update (in days).
 UPDATE_ZSH_DAYS=7
 
@@ -71,7 +71,16 @@ UPDATE_ZSH_DAYS=7
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nmap colored-man-pages sudo z sublime )
+plugins=(
+         git
+         nmap
+         colored-man-pages
+         sudo
+         z
+         sublime
+         alias-tips
+         autoupdate
+         )
 
 source $ZSH/oh-my-zsh.sh
 source ~/.editor
@@ -81,7 +90,7 @@ source ~/.editor
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+ export LANG=pl_PL.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -96,6 +105,7 @@ source ~/.editor
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# Dodaje kolorowanie w ls
 eval `dircolors ~/.dircolors`
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
